@@ -6,7 +6,9 @@ class Composer extends \Illuminate\Support\Composer
 {
     public function installDryRun(string $options = null)
     {
-        $composer = $this->findComposer();
+        $composer = array_map(function ($directory) {
+            return trim($directory, "'");
+        }, $this->findComposer());
 
         $command = array_merge(
             (array) $composer,
