@@ -8,7 +8,7 @@ class Composer extends \Illuminate\Support\Composer
     {
         $composer = array_map(function ($directory) {
             return trim($directory, "'");
-        },$this->findComposer());
+        }, $this->findComposer());
 
         $command = array_merge(
             (array) $composer,
