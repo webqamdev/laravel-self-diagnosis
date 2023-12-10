@@ -1,17 +1,23 @@
 {
-    "name": "beyondcode/laravel-self-diagnosis",
+    "name": "webqamdev/laravel-self-diagnosis",
     "description": "Perform various self diagnosis tests on your Laravel application.",
     "keywords": [
         "beyondcode",
         "laravel-self-diagnosis"
     ],
-    "homepage": "https://github.com/beyondcode/laravel-self-diagnosis",
+    "homepage": "https://github.com/webqamdev/laravel-self-diagnosis",
     "license": "MIT",
     "authors": [
         {
             "name": "Marcel Pociot",
             "email": "marcel@beyondco.de",
             "homepage": "https://beyondcode.de",
+            "role": "Developer"
+        },
+        {
+            "name": "Thomas Combr",
+            "email": "tcombe@webqam.fr",
+            "homepage": "https://webqam.fr",
             "role": "Developer"
         }
     ],
